@@ -2,12 +2,11 @@
     margin: 0 auto;
 } */
  .style{
-    background-color: rgba(185, 185, 185, 1.00);
+    background-color: rgba(34,34,34,1.0);
  }
  .banner{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.205) 100%);
-    width: 100%;
-    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.637),rgba(119, 119, 119, 0.986) 100%);
+    width: 97vw;
     height:75vh;
   
  }
@@ -18,17 +17,21 @@
     justify-content: space-between;
    
 }
-.nav-bar{
+.bar{
     display: flex;
     font-size: 20px;
      margin-right: 70px; 
     gap: 15px;
  color: #fff;
 }
+.hum-barger{
+  display: none;
+}
 .nav h1{
     color: rgba(230,83,60,1.00);
     font-size: 30px;
-     margin-left: 60px; 
+    font-weight: 600px;
+     /* margin-left: 60px;  */
 }
 .home{
     background-color:rgba(230,83,60,1.00) ;
@@ -42,11 +45,13 @@
 }
 /*  */
 .body{
-   margin-left: 10rem;
-    margin-top: 8rem;
+   /* margin-left: 10rem; */
+    /* margin-top: 5rem; */
 }
 .body h2{
     color: #fff;
+    font-size: 40px;
+    font-weight: 600px;
 }
 .body p{
     color: rgba(255,255,255,0.50);
@@ -135,7 +140,7 @@
      margin-left: 190px; 
      margin-right: 120px;  
     margin-top: 35px;
-    background-color: rgba(34,34,34,1.0);
+    background-color: rgba(255,255,255,0.10);
     width: 67vw;
     height: 32vh;
     border-radius: 15px;
@@ -175,11 +180,27 @@
   .column {
     display: flex;
     text-align: center;
+
   }
   .row1 {
     width: 20vw;
     height: 25vh;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    
+  }
+  .lunge{
+    margin-top: 100px;
+    color: #fff;
+  }
+  .plank{
+   margin-top: -40px;
+   margin-right: 20rem;
+   color: #fff;
+  }
+  .jack{
+    margin-top: 100px;
+    margin-right: 90px;
+    color: #fff;
   }
   .column p {
     transform: translate(0, -150px);
@@ -196,12 +217,12 @@
     display: flex;
     text-align: center;
     align-items: center;
-    margin-top: -55px;
+    margin-top: -137px;
   }
   .row4 {
     width: 29vw;
     height: 24vh;
-  
+  margin-top: -92px;
     margin-left: 149px;
   }
   .row5 {
@@ -216,8 +237,15 @@
     text-align: center;
     align-items: center;
   }
+  .lorem-1{
+    margin-top: -185px;
+    margin-left: 290px;
+    color: #fff;
+  }
   .lorem {
     margin-top: -70px;
+    color: #fff;
+    margin-right: 50px;
   }
   /*  */
   .bmi{
@@ -229,7 +257,7 @@
     color: #fff;
   }
    td,th{
-    border: 2px solid rgba(25,25,25,1.00);
+    border: 2px solid rgba(25, 25, 25, 0.315);
     padding: 10px 10px;
   }
   .chart h1{
@@ -245,7 +273,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(34, 34, 34, 0.753);
+    background-color: rgba(255,255,255,0.10);
     width: 98vw;
     height: 40vh;
   }
@@ -368,7 +396,7 @@
   .footer h1{
    font-size: 30px;
    margin-right: 195px;
-   color: #fff;
+   color:rgb(230,83,60,1.0);
   }
   .get-started h1{
    font-size: 20px;
@@ -391,5 +419,5 @@
     margin-left: 280px;
   }
   .reserved{
-    background-color:rgba(255,255,255,0.10);
+    background-color:rgba(255, 255, 255, 0.10);
   }

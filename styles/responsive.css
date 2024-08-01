@@ -1,0 +1,107 @@
+@media  screen and (max-width:576px) {
+    .banner{
+        width: 100vw;
+        height: 105vh;
+    }
+    .bar{
+        display: none;
+    }
+    .hum-barger{
+        display: block;
+        font-size: 30px;
+        margin-top: 50px;
+        color: #fff;
+        margin-right: 20px;
+    }
+    .nav h1{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .body{
+          margin-right: 200px;
+      margin-top: -50px;  
+    }
+    .body h2{
+        font-size: 20px;
+        margin-right: 120px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .img img{
+       margin-top: 2rem;
+    }
+    .join{
+     padding: 10px 30px 10px 30px;
+    height: 40px;
+    position: relative;
+
+    }
+    .download{
+        padding: 10px 20px 10px 20px;
+     
+     position: absolute;
+    
+     
+    }
+    .habit{
+  
+     text-align: center;
+     width: 100%;
+    }
+    .chance{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .run{
+       display: flex;
+       flex-direction: column;
+        width: 80vw;
+        height: 70vh; 
+        margin-left: 25px; 
+    
+    }
+    .run img{
+        width: 50vw;
+    }
+    .extra p{
+        width: 100%;
+    }
+   .trainings{
+   margin-left: 10px;
+     
+   }
+   .column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 7rem;
+   }
+   .row1{
+    width: 50vw;
+   }
+   .row2{
+    width: 50vw;
+    margin-right: 10rem;
+   }
+   .row3{
+   display: none;
+   }
+   .lunge{
+
+   }
+   .plank{
+  margin-top:10rem;
+   }
+   .jack{
+    display: none  ;
+   }
+   .column-2{
+  
+
+   }
+   .row6{
+    display: none;
+   }
+   .lorem{
+    display: none;
+   }
+}
