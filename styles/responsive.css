@@ -3,8 +3,8 @@
     
     }
     .banner{
-        width: 100vw;
-        height: 105vh;
+        width: 96vw;
+        height: 120vh;
     }
     .bar{
         display: none;
@@ -21,8 +21,8 @@
         margin-left: 15px;
     }
     .body{
-          margin-right: 200px;
-      margin-top: -50px;  
+   
+      
     }
     .body h2{
         font-size: 20px;
@@ -32,24 +32,32 @@
     }
     .img img{
        margin-top: 2rem;
+       width: 98%;
+        margin-left: 5rem; 
+      
+    }
+    .btn{
+      margin-left: -2rem;
     }
     .join{
-     padding: 10px 30px 10px 30px;
+     /* padding: 10px 30px 10px 30px;
     height: 40px;
     position: relative;
 
     }
     .download{
         padding: 10px 20px 10px 20px;
-     
-     position: absolute;
+     /* position: absolute; */
     
      
-    }
+    } */
     .habit{
-  
-     text-align: center;
-     width: 100%;
+    width: 50%;
+    }
+    .habit h1{
+   display: flex;
+   flex-direction: column;
+    max-width: 50vw;
     }
     .chance{
         display: grid;
@@ -60,7 +68,7 @@
        flex-direction: column;
         width: 80vw;
         height: 70vh; 
-        margin-left: 25px; 
+        /* margin-left: 25px;  */
     
     }
     .run img{
@@ -74,16 +82,19 @@
      
    }
    .column{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-   margin-left: -10rem;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+  margin-left: -9rem;
    }
    .row1{
-    width: 60vw;
+  width: 190px;
+   
    }
    .row2{
-    width: 40vw;
-    margin-right: 20rem;
+ width: 190px;
+    
+    /* display: none; */
    }
    .row3{
    display: none;
@@ -92,32 +103,40 @@
 
    }
    .plank{
-  margin-top:8rem;
+  /* margin-top:8rem; */
+  display: none;
    }
    .jack{
     display: none  ;
    }
    .column-2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: -8rem;
-    margin-left: -10rem;
+     display: flex;
+     flex-direction: row;
+    margin-top: -6.3rem;
+      margin-left: -9rem;  
    }
    .row4{
-    width: 60vw;
-    position: relative;
+   max-width: 1000px;
+    /* position: relative; */
      margin-top: -2.2rem; 
+      /* margin-right: -2rem; */
    }
    .row5{
-    width: 40vw;
-    margin-top: -2.2rem;
+    max-width: 1000px;
+    margin-top: -2.2rem; 
+   /* margin-left: -4rem; */
+    /* display: none; */
    }
    .row6{
     display: none;
    }
    .lorem-1{
-   position: absolute;
-   margin-left: 2rem;
+   /* position: absolute;
+   margin-left: 2rem; */
+   display: none;
+   }
+   .lorem-2{
+    display: none;
    }
    .lorem{
     display: none;
@@ -126,7 +145,7 @@
    text-align: center;
    }
    .calculation{
-    width: 100vw;
+    width: 96vw;
     height: 80vh;
    display: flex;
    flex-direction: column;
@@ -157,19 +176,32 @@
     display: none;
   }
   .trainer-image{
-    width: 250vw;
-    height: 100vh;
-    margin-left: 20px;
+    background-color: bisque;
+   height: 100vh;
+    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
 
   }
+  .team{
+    display: flex;
+    flex-direction: column;
+  }
   .trainer-image,.trainer-1{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+ 
     width: 70vw;
+    /* margin-left: 1rem; */
   }
   .reserved{
     display: flex;
     flex-direction: column;
+    width: 94vw;
 
   }
 .get{

@@ -3,12 +3,14 @@
 } */
   .style{
     background-color: rgba(34,34,34,1.0);
+    /* margin: 1px 1px; */
  } 
  .banner{
     background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.637),rgba(119, 119, 119, 0.986) 100%);
-    width: 97vw;
-    height:75vh;
-  
+    width: 98.5vw;
+    height:75vh; 
+    position: relative;
+ 
  }
 
 .nav{
@@ -20,9 +22,9 @@
 .bar{
     display: flex;
     font-size: 20px;
-     margin-right: 70px; 
+     margin-right: 100px; 
     gap: 15px;
- color: #fff;
+  color: #fff;
 }
 .hum-barger{
   display: none;
@@ -31,6 +33,7 @@
     color: rgba(230,83,60,1.00);
     font-size: 30px;
     font-weight: 600px;
+    margin-left: 4rem;
      /* margin-left: 60px;  */
 }
 .home{
@@ -45,8 +48,8 @@
 }
 /*  */
 .body{
-   /* margin-left: 10rem; */
-    /* margin-top: 5rem; */
+   /* margin-left: 8rem; 
+     margin-top: 5rem;  */
 }
 .body h2{
     color: #fff;
@@ -72,20 +75,24 @@
 }
 .img{
     text-align: end;
+    width: 100%;
+margin-left: -5rem;
 }
 .img img{
     text-align: left;
-    margin-top: -22rem;
-    margin-right: 10rem;
+    margin-top: -22rem; 
+    position: relative;
+  
 }
 .button{
     text-align: right;
      margin-top: -25rem; 
-    margin-right: 6rem;
+    margin-right: 20px;
 }
 .workout{
     padding: 20px 25px 20px 25px;
     margin-top: -22rem;
+  
 }
 .bold{
     font-size: 20px;
@@ -103,14 +110,14 @@
 .btn{
     padding: 15px 30px 15px 30px;
     position: absolute;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 11rem;
 }
 /*  */
 .habit {
-    text-align: center;
+     text-align: center;
     margin-top: 60px;
-    color: #ffffff36;
+    color: #ffffff36; 
   }
   .habit h1{
     color: #fff;
@@ -137,8 +144,8 @@
     gap: 140px;
     text-align: center;
      align-items: center; 
-     margin-left: 190px; 
-     margin-right: 120px;  
+     /* margin-left: 190px; 
+     margin-right: 120px;   */
     margin-top: 35px;
     background-color: rgba(255,255,255,0.10);
     width: 67vw;
@@ -205,6 +212,7 @@
   .column p {
     transform: translate(0, -150px);
   }
+  
   .row2 {
     width: 32vw;
     height: 25vh;
@@ -222,25 +230,33 @@
   .row4 {
     width: 29vw;
     height: 24vh;
-  margin-top: -92px;
+  margin-top: -109px;
      margin-left: 149px; 
   }
   .row5 {
-    width: 20vw;
+    width: 22vw;
     height: 24vh;
     text-align: center;
     align-items: center;
+    margin-right: 5rem;
   }
   .row6 {
-    width: 39vh;
+    width: 36vh;
     height: 24.3vh;
     text-align: center;
     align-items: center;
+    margin-left: -5rem;
+    margin-top: -39px;
   }
   .lorem-1{
-    margin-top: -185px;
+    margin-top: -195px;
     margin-left: 290px;
     color: #fff;
+  }
+  .lorem-2{
+   color: #fff;
+   margin-top: -2rem;
+   margin-right: 10rem;
   }
   .lorem {
     margin-top: -70px;
@@ -249,8 +265,8 @@
   }
   /*  */
   .bmi{
+    text-align: center;
     margin-top: 40px;
-  /* margin-left: 250px; */
   color: rgba(255,255,255,0.10);
   }
   .bmi h1{
@@ -338,10 +354,8 @@
   .trainer-image{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    text-align: center;
+    text-align: right;
     align-items: center;
-    margin-right: 265px;
-    margin-left: 265px;
     margin-top: 60px;
     margin-bottom: 80px;
     background-color: bisque;
