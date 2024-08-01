@@ -1,4 +1,7 @@
 @media  screen and (max-width:576px) {
+    .style{
+    
+    }
     .banner{
         width: 100vw;
         height: 105vh;
@@ -73,14 +76,14 @@
    .column{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-right: 7rem;
+   margin-left: -10rem;
    }
    .row1{
-    width: 50vw;
+    width: 60vw;
    }
    .row2{
-    width: 50vw;
-    margin-right: 10rem;
+    width: 40vw;
+    margin-right: 20rem;
    }
    .row3{
    display: none;
@@ -89,19 +92,92 @@
 
    }
    .plank{
-  margin-top:10rem;
+  margin-top:8rem;
    }
    .jack{
     display: none  ;
    }
    .column-2{
-  
-
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: -8rem;
+    margin-left: -10rem;
+   }
+   .row4{
+    width: 60vw;
+    position: relative;
+     margin-top: -2.2rem; 
+   }
+   .row5{
+    width: 40vw;
+    margin-top: -2.2rem;
    }
    .row6{
     display: none;
    }
+   .lorem-1{
+   position: absolute;
+   margin-left: 2rem;
+   }
    .lorem{
     display: none;
    }
+   .bmi{
+   text-align: center;
+   }
+   .calculation{
+    width: 100vw;
+    height: 80vh;
+   display: flex;
+   flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+   }
+   .chart{
+    font-size: 20px;
+   }
+   .td,th{
+    border: 2px solid rgba(25, 25, 25, 0.315);
+    padding: 10px 40px;
+  }
+  .trainer{
+    display: none;
+  }
+  .pnges{
+    display: none;
+  }
+  .png-11{
+    display: none;
+  }
+  .png{
+    display: none;
+  }
+  .png-1{
+    display: none;
+  }
+  .trainer-image{
+    width: 250vw;
+    height: 100vh;
+    margin-left: 20px;
+
+  }
+  .trainer-image,.trainer-1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 70vw;
+  }
+  .reserved{
+    display: flex;
+    flex-direction: column;
+
+  }
+.get{
+    display: flex;
+    flex-direction: column;
+}
+footer >hr{
+margin-left: 20px;
+width: 85vw;
+}
 }
